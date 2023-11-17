@@ -1,19 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 body {
-    background: #0E7E12;
-    box-sizing: border-box;
-}
-#card {
-height: 500px;
-width: 225px;
-background-color: white;
-border: 1px solid black;
-border-radius: 10%;
-font-size: 70px;
-padding: 5px;
-}
+    background-color: green;
+  }
+  #card {
+    height: 375px;
+    width: 275px;
+    background-color: white;
+    border-radius: 12%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    font-size: 80px;
+    padding: 5px;
+  }
+  .suit {
+    padding: 0;
+    margin: 0;
+  }
+  .top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .bottom {
+    display: flex;
+  
+    align-items: flex-end;
+    justify-content: flex-end;
+   
+  }
 
-.suit{
-    padding: ;
-}
-
+  .btn{
+    margin: 10px;
+    
+  }
